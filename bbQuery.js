@@ -1,10 +1,11 @@
+
 var bbQuery = function(selector){
-    //can only select one element by id. Make it able to select ids, classes, and by plain tag name ie. "header"
-    //and return multiple elements when more than one is selected
-    //example usage: bbQuery("#lol") - bbQuery(".container") - bbQuery("h1")
-    //console.log(selector);
+    /*
+     * selector is tagname if a-z
+     * id if first char is #
+     * class name if first char is .
+     */
     firstChar = selector.charAt(0);
-    //console.log(firstChar);
     if (firstChar.match(/[a-z]/i)) {
         var element = document.getElementsByTagName(selector);
     } else if (firstChar === '#') {
