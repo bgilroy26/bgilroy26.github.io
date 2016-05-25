@@ -1,0 +1,25 @@
+#content-container {
+    text-align:center;
+    margin:0 20%;
+    height:30em;
+}
+
+p {
+    border: 1px solid black;
+    margin: 1em auto;
+}
+
+#text-swap{
+    background-color:gray;
+}
+
+.group {
+    background-color:lightyellow;
+    color:darkblue;
+}
+
+.standOut {
+    background-color:blue;
+    color:yellow;
+    font-weight:bold;
+}  
