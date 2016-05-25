@@ -1,12 +1,21 @@
+body {
+    background: lightgray;
+}
+
 #content-container {
     text-align:center;
     margin:0 20%;
     height:30em;
 }
 
+#somes-container {
+    border 1px solid black;
+}
+
 p {
     border: 1px solid black;
     margin: 1em auto;
+    background: lemonchiffon;
 }
 
 #text-swap{
@@ -18,8 +27,14 @@ p {
     color:darkblue;
 }
 
-.standOut {
-    background-color:blue;
+#paragraphs {
+    border: 1px solid red;
+    padding: 1em ;
+    background: powderblue;
+}
+
+.standOut > p {
+    background:blue;
     color:yellow;
     font-weight:bold;
 }  
